@@ -11,6 +11,18 @@
     <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210250_added_entity_UserRecord.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210251_added_entity_Answer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210252_added_entity_UserRecordVariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210253_added_entity_RecordList.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210254_added_entity_Tag.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210255_added_entity_UserData.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190513210250_added_entity_constraints_UserRecord.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210251_added_entity_constraints_Answer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210252_added_entity_constraints_UserRecordVariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210253_added_entity_constraints_RecordList.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210254_added_entity_constraints_Tag.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190513210255_added_entity_constraints_UserData.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
